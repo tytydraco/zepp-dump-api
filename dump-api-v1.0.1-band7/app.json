@@ -1,0 +1,55 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 99999,
+    "appName": "DumpAPI",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.0"
+    },
+    "icon": "icon.png",
+    "vender": "tytydraco",
+    "description": "Dump internal API."
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "targets": {
+    "194x368-amazfit-band-7": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "amazfit-band7-nfc",
+          "deviceSource": 252
+        },
+        {
+          "name": "amazfit-band7",
+          "deviceSource": 253
+        },
+        {
+          "name": "amazfit-band7-w",
+          "deviceSource": 254
+        }
+      ],
+      "designWidth": 194
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "DumpAPI"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
